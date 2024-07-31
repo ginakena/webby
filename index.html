@@ -197,6 +197,7 @@ ul li {
 }
 #about .management-image{
     flex: 1;
+    
 }
 
 #about img, .management-image img {
@@ -523,7 +524,7 @@ footer {
         <div class="container">
             <h2>Contact Us</h2>
             <p>Phone: +254 724096735</p>
-            <p>Email: <a href="mailto:olummartine@gmail.com>olummartine@gmail.com</a></p>
+            <p>Email: <a href="mailto:olummartine@gmail.com">olummartine@gmail.com</a></p>
              <p>Phone: +254 765591553</p>
             <p>Email: <a href="mailto:murungajoab@outlook.com">murungajoab@outlook.com</a></p>
         </div>
@@ -535,5 +536,10 @@ footer {
             <p>&copy; 2024 MRO Engineering Company Limited. All rights reserved.</p>
         </div>
     </footer>
+                 <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
