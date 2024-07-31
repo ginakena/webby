@@ -164,47 +164,25 @@ ul {
 ul li {
     margin-bottom: 0.5rem;
 }
-#about .container{
+#about .container {
     display: block;
 }
-#about .about-us-container{
+
+#about .about-us-container {
     display: flex;
-    display: block
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 2rem;
-} 
-#about h2, #about h3, #about p, #about ul {
-    display: block;
-    margin-bottom: 1.5rem;
-}
-#about .management-container{
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     margin-bottom: 2rem;
 }
-#about .specializations-container{
-     justify-content: space-between;
-    align-items: center;
-    margin-bottom: 2rem;
-}
+
 #about .about-text,
-#about .specializations-text{
+#about .specializations-text {
     flex: 1;
 }
-#about .management-text{
-    flex: 1;
-    margin-right: 2rem;
-}
-#about .about-image{
+
+#about .about-image {
     flex: 1;
     text-align: center;
-}
-#about .management-image{
-    flex: 1;
-    
 }
 
 #about img, .management-image img {
@@ -214,33 +192,34 @@ ul li {
     margin: 1rem 0;
     border-radius: 10px;
 }
+
 .management-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+    text-align: center;
+    margin-bottom: 2rem;
+}
 
-        .management-container h3, .management-container p {
-            text-align: center;
-        }
+.management-container h3, .management-container p {
+    text-align: center;
+}
 
-        .management-images {
-            display: flex;
-            justify-content: center;
-            gap: 2rem;
-            margin-top: 2rem;
-        }
+.management-images {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
 
-        .management-image img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
+.management-caption {
+    text-align: center;
+    margin-top: 0.5rem;
+}
 
-        .management-caption {
-            text-align: center;
-            margin-top: 0.5rem;
-        }
+#about .specializations-container,
+#about .mission-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
 
 /* Services Section */
 #services .container {
@@ -405,7 +384,6 @@ footer {
                         <div class="management-caption">Angiehellen Moracha.</div>
             </div>
             <div class="specializations-container">
-                <div class="specializations-text">
             <h3>Specializations</h3>
             <ul>
                 <li>Road construction, repair, and resurfacing</li>
@@ -414,12 +392,13 @@ footer {
                 <li>Building houses and offices</li>
                 <li>Renovation works</li>
             </ul>
-                </div>
             </div>
+            <div class="mission-container">
             <h3>MISSION</h3>
             <p>To deliver relevant, timely, and accurate services on construction projects and supplies by maintaining an open approach that places the client at the center of everything we do.</p>
         </div>
-    </section>
+                </div>
+        </section>
 
     <!-- Services Section -->
     <section id="services">
